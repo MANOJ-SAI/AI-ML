@@ -14,7 +14,7 @@ These concepts are heavily used in **real-world Data Science and Machine Learnin
 
 ---
 
-# 1️⃣ Merging Data (VERY IMPORTANT)
+# 1. Merging Data (VERY IMPORTANT)
 
 ## 🔹 Core Functions
 - `pd.merge()`
@@ -70,7 +70,7 @@ pd.concat([df1, df2], axis=1)
 
 ---
 
-# 2️⃣ Grouping Data (`groupby`) – DATA SCIENCE CORE
+# 2. Grouping Data (`groupby`) – DATA SCIENCE CORE
 
 ## 🔹 Basic Grouping
 ```python
@@ -109,7 +109,7 @@ df.groupby('department').filter(
 
 ---
 
-# 3️⃣ Advanced Data Cleaning (VERY IMPORTANT)
+# 3. Advanced Data Cleaning (VERY IMPORTANT)
 
 ## 🔹 Detect Missing Values
 ```python
@@ -163,7 +163,7 @@ df[df['salary'] < 1000000]
 
 ---
 
-# 4️⃣ Column Engineering (Feature Preparation)
+# 4. Column Engineering (Feature Preparation)
 
 ```python
 df['new_col'] = df['salary'] / 100000
@@ -174,7 +174,7 @@ df['is_high_salary'] = df['salary'] > 70000
 
 ---
 
-# 5️⃣ Advanced Sorting & Indexing
+# 5. Advanced Sorting & Indexing
 
 ```python
 df.sort_values(by=['department', 'salary'])
@@ -184,7 +184,7 @@ df.set_index('id')
 
 ---
 
-# 6️⃣ Final Data Validation (IMPORTANT)
+# 6. Final Data Validation (IMPORTANT)
 
 ```python
 df.shape
